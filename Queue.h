@@ -15,6 +15,6 @@ public:
 
 	//member function
 	void run();
-	float AverageP(int*, int*, int*, float);
-	float maxValue(int*, int*, int*, float);
+	float AverageP(int*);
+	float maxValue(int*);
 };
