@@ -28,7 +28,6 @@ void Queue::run() {
 
         NofPackets[itime] = (int)q_vec.size();   // 현재 시간에 대한 q_vec의 크기를 배열에 저장
     }
-    cout << "NofPackets[itime]: " << NofPackets[itime] << endl;
 }
 float Queue::AverageP(int *a) {
     float sum = 0;
