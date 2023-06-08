@@ -8,13 +8,13 @@ public:
 	
 	//member data
 	int NI, NO, capacity;
-	int lost;
+	int lost = 0;
 	int ni, no, itime;
 	int NofPackets[120];
 	vector <int> q_vec;
 
 	//member function
 	void run();
-	float AverageP(int*);
-	float maxValue(int*);
+	float AverageP();
+	float maxValue();
 };
